@@ -29,6 +29,10 @@ Clone the repository to your local machine.
 Open the index.html file in a web browser to view the pricing page.
 Feel free to explore the code and customize it according to your needs.
 
+###DEMO 
+For demo you can refer to this live page [https://yashasri-g.github.io/-PricingLandingPage/] click here
+
+
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
