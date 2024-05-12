@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles (1).css">
+</head>
+<body>
+    <header>
+        <h1>Pricing Page</h1>
+    </header>
+    <main>
+        <section class="pricing-plans">
+            <h2>Choose Your Plan</h2>
+            <div class="plan-container">
+                <div class="plan">
+    <h3>Basic</h3>
+    <p data-base-price="9.99">$9.99/month</p>
+    <ul>
+        <li>1 User</li>
+        <li>10GB Storage</li>
+        <li>Basic Support</li>
+    </ul>
+    <button class="btn">Sign Up</button>
+</div>
+<div class="plan">
+    <h3>Premium</h3>
+    <p data-base-price="19.99">$19.99/month</p>
+    <ul>
+        <li>5 Users</li>
+        <li>50GB Storage</li>
+        <li>Premium Support</li>
+    </ul>
+    <button class="btn">Sign Up</button>
+</div>
+<div class="plan">
+    <h3>Enterprise</h3>
+    <p data-base-price="Custom">Custom Pricing</p>
+    <ul>
+        <li>Unlimited Users</li>
+        <li>Unlimited Storage</li>
+        <li>Dedicated Support</li>
+    </ul>
+    <button class="btn">Contact Us</button>
+</div>
+
+            </div>
+            <div class="toggle-container">
+                <label for="currency">Currency:</label>
+                <select id="currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+                <label for="unit">Unit:</label>
+                <select id="unit">
+                    <option value="month">Month</option>
+                    <option value="year">Year</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
